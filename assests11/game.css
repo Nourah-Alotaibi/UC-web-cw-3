@@ -21,12 +21,12 @@ border-radius: 12px;
     transition: 0.5s;
     border-color: teal;
    font-size: 64px;
-   color: teal;  
+   color: rgb(0, 0, 0);  
  justify-content: center;
  align-items: center;
  display: flex;
 flex-wrap: wrap;
-box-shadow: rgb(38, 167, 167);
+box-shadow: rgb(3, 37, 43);
 
 }
 .body{
