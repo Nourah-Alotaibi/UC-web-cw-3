@@ -1,28 +1,47 @@
 .container{
   background-color:cornsilk; 
-  width: 500px; 
+  width: 320px;
+  height: 320px; 
   display: flex;
- justify-content: center;
  align-items: center;
  flex-wrap: wrap;
-  
+ flex-direction: row;
+ margin: auto;
+justify-content: center;
+align-items: center;
+border-radius: 12px;
+ 
 }
 .box{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-color:teal;
-    margin: 1px;
+    margin: auto;
     border-style: solid;
     transition: 0.5s;
-    display: flex;
-     flex-direction: column;
-   align-items: center;
-   flex-wrap: wrap;
-  
+    border-color: teal;
+   font-size: 64px;
+   color: teal;  
+ justify-content: center;
+ align-items: center;
+ display: flex;
+flex-wrap: wrap;
+box-shadow: rgb(38, 167, 167);
 
 }
-
-.box:hover {
-    border-color:turquoise ;
-    border-radius: 10px;
+.body{
+  margin:0;
+}
+.center{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+ 
+}
+.box:hover{
+  background-color: rgb(38, 167, 167) ;
+  border-color: turquoise;
 }
